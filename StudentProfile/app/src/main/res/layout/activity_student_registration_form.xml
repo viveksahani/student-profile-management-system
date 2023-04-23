@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#D4F1EF"
+    android:orientation="vertical"
+    tools:context=".StudentRegistrationForm">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Student Profile"
+                android:textColor="#000000"
+                android:textSize="27dp"
+                android:textStyle="bold" />
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="550dp">
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="140dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:gravity="bottom"
+                                android:paddingLeft="3dp"
+                                android:text="Reg. NO."
+                                android:textSize="18dp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:gravity="bottom"
+                                android:paddingLeft="3dp"
+                                android:text="Name"
+                                android:textSize="18dp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:paddingLeft="3dp"
+                                android:gravity="bottom"
+                                android:text="Father Name"
+                                android:textSize="18dp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:gravity="bottom"
+                                android:paddingLeft="3dp"
+                                android:text="Mother Name"
+                                android:textSize="18dp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:gravity="bottom"
+                                android:paddingLeft="3dp"
+                                android:text="Mobile No."
+                                android:textSize="18dp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:gravity="bottom"
+                                android:text="Gmail"
+                                android:paddingLeft="3dp"
+                                android:textSize="18dp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:gravity="bottom"
+                                android:text="Address"
+                                android:paddingLeft="3dp"
+                                android:textSize="18dp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp"
+                                android:gravity="center_vertical"
+                                android:text="10th Reg.No."
+                                android:paddingLeft="3dp"
+                                android:textSize="18dp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp"
+                                android:gravity="center_vertical"
+                                android:text="12th Reg.No."
+                                android:paddingLeft="3dp"
+                                android:textSize="18dp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="180dp"
+                                android:gravity="center_vertical"
+                                android:orientation="vertical">
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    android:text="Profile Photo"
+                                    android:paddingLeft="3dp"
+                                    android:textSize="18dp" />
+                                <Button
+                                    android:id="@+id/button1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal"
+                                    android:text="Choose"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+                            <EditText
+                                android:id="@+id/EditText1"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:inputType="number"
+                                android:textSize="20dp"/>
+                            <EditText
+                                android:id="@+id/EditText2"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:paddingLeft="3dp"
+                                android:textSize="18dp"/>
+                            <EditText
+                                android:id="@+id/EditText3"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:paddingLeft="3dp"
+                                android:textSize="18dp"/>
+                            <EditText
+                                android:id="@+id/EditText4"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:paddingLeft="3dp"
+                                android:textSize="18dp"/>
+                            <EditText
+                                android:id="@+id/EditText5"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:paddingLeft="3dp"
+                                android:inputType="number"
+                                android:textSize="18dp"/>
+                            <EditText
+                                android:id="@+id/EditText6"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:paddingLeft="3dp"
+                                android:inputType="textEmailAddress"
+                                android:textSize="18dp"/>
+                            <EditText
+                                android:id="@+id/EditText7"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:paddingLeft="3dp"
+                                android:textSize="18dp"/>
+                            <EditText
+                                android:id="@+id/EditText8"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:inputType="number"
+                                android:hint="10th Reg. No."
+                                android:paddingLeft="3dp"
+                                android:textSize="18dp"/>
+                            <EditText
+                                android:id="@+id/EditText9"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:inputType="number"
+                                android:hint="marks %"
+                                android:paddingLeft="3dp"
+                                android:textSize="18dp"/>
+                            <EditText
+                                android:id="@+id/EditText10"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:inputType="number"
+                                android:hint="12th Reg. No."
+                                android:paddingLeft="3dp"
+                                android:textSize="18dp"/>
+                            <EditText
+                                android:id="@+id/EditText11"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:inputType="number"
+                                android:hint="marks %"
+                                android:paddingLeft="3dp"
+                                android:textSize="18dp"/>
+                            <ImageView
+                                android:id="@+id/ImageView1"
+                                android:layout_width="match_parent"
+                                android:layout_height="180dp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </androidx.core.widget.NestedScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:text="Register" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Cancel" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
